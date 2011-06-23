@@ -18,6 +18,8 @@
 		C783281113B3FB080007EAD4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C783280F13B3FB080007EAD4 /* MainWindow.xib */; };
 		C783281413B3FB080007EAD4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C783281313B3FB080007EAD4 /* RootViewController.m */; };
 		C783281713B3FB080007EAD4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C783281513B3FB080007EAD4 /* RootViewController.xib */; };
+		C783282013B3FB510007EAD4 /* DueVu.m in Sources */ = {isa = PBXBuildFile; fileRef = C783281E13B3FB510007EAD4 /* DueVu.m */; };
+		C783282113B3FB510007EAD4 /* DueVu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C783281F13B3FB510007EAD4 /* DueVu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,17 +28,20 @@
 		C78327FA13B3FB080007EAD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C78327FC13B3FB080007EAD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C78327FE13B3FB080007EAD4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		C783280213B3FB080007EAD4 /* DueTest-Info.plist */ = {isa = PBXFileReference; path = "DueTest-Info.plist"; sourceTree = "<group>"; };
+		C783280213B3FB080007EAD4 /* DueTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DueTest-Info.plist"; sourceTree = "<group>"; };
 		C783280413B3FB080007EAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C783280613B3FB080007EAD4 /* DueTest-Prefix.pch */ = {isa = PBXFileReference; path = "DueTest-Prefix.pch"; sourceTree = "<group>"; };
+		C783280613B3FB080007EAD4 /* DueTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DueTest-Prefix.pch"; sourceTree = "<group>"; };
 		C783280713B3FB080007EAD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C783280913B3FB080007EAD4 /* DueTestAppDelegate.h */ = {isa = PBXFileReference; path = DueTestAppDelegate.h; sourceTree = "<group>"; };
+		C783280913B3FB080007EAD4 /* DueTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DueTestAppDelegate.h; sourceTree = "<group>"; };
 		C783280A13B3FB080007EAD4 /* DueTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DueTestAppDelegate.m; sourceTree = "<group>"; };
 		C783280D13B3FB080007EAD4 /* DueTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DueTest.xcdatamodel; sourceTree = "<group>"; };
 		C783281013B3FB080007EAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		C783281213B3FB080007EAD4 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		C783281213B3FB080007EAD4 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		C783281313B3FB080007EAD4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		C783281613B3FB080007EAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		C783281D13B3FB510007EAD4 /* DueVu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DueVu.h; sourceTree = "<group>"; };
+		C783281E13B3FB510007EAD4 /* DueVu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DueVu.m; sourceTree = "<group>"; };
+		C783281F13B3FB510007EAD4 /* DueVu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DueVu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +98,9 @@
 				C783281513B3FB080007EAD4 /* RootViewController.xib */,
 				C783280C13B3FB080007EAD4 /* DueTest.xcdatamodeld */,
 				C783280113B3FB080007EAD4 /* Supporting Files */,
+				C783281D13B3FB510007EAD4 /* DueVu.h */,
+				C783281E13B3FB510007EAD4 /* DueVu.m */,
+				C783281F13B3FB510007EAD4 /* DueVu.xib */,
 			);
 			path = DueTest;
 			sourceTree = "<group>";
@@ -158,6 +166,7 @@
 				C783280513B3FB080007EAD4 /* InfoPlist.strings in Resources */,
 				C783281113B3FB080007EAD4 /* MainWindow.xib in Resources */,
 				C783281713B3FB080007EAD4 /* RootViewController.xib in Resources */,
+				C783282113B3FB510007EAD4 /* DueVu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +181,7 @@
 				C783280B13B3FB080007EAD4 /* DueTestAppDelegate.m in Sources */,
 				C783280E13B3FB080007EAD4 /* DueTest.xcdatamodeld in Sources */,
 				C783281413B3FB080007EAD4 /* RootViewController.m in Sources */,
+				C783282013B3FB510007EAD4 /* DueVu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
